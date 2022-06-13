@@ -28,4 +28,10 @@ public class CalculatorTest {
         assertEquals(6,calculatorValues.subtractValues());
 
     }
+
+    @Test
+    public void canDivideTwoValues(){
+        assertEquals(3,calculatorValues.divideValues(),0.0);
+
+    }
 }

@@ -18,4 +18,8 @@ public class Calculator {
     public int subtractValues() {
         return value1-value2;
     }
+
+    public double divideValues() {
+        return value1/value2;
+    }
 }
